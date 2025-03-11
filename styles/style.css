@@ -1,0 +1,12 @@
+body {
+    font-family: 'Formular';
+}
+main {
+    background-color: #E5E7EB;
+}
+.container {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
