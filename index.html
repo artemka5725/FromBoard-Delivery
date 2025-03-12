@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="styles/preview.css">
+    <link rel="stylesheet" href="styles/advantages.css">
+    <link rel="stylesheet" href="styles/guaranty.css">
+    <link rel="stylesheet" href="styles/reviews.css">
 </head>
 <body>
 <header class="header">
@@ -51,39 +54,171 @@
     </div>
 </header>
 <main class="main">
-    <div class="container">
-        <section class="preview">
-            <div class="about">
-                <h1>Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h1>
-                <p>Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко и удобно
-                    заказывать товары со всего мира и получать их в России</p>
-                <img src="images/preview-image.png" width="756" height="352" alt="Упаковка посылки">
-            </div>
-            <article class="calculator">
-                <div class="calculator__container">
-                    <div class="calculator__info">
-                        <h2>Калькулятор доставки</h2>
-                        <p>Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
+    <section class="preview">
+        <div class="container">
+            <div class="preview__content">
+                <article class="about">
+                    <h1>Без проблемная доставка купленных вещей из США, Европы и Азии в Россию</h1>
+                    <p>Сэкономьте на покупках и наслаждайтесь мировыми брендами — наш сервис позволяет вам легко
+                        и удобно
+                        заказывать товары со всего мира и получать их в России</p>
+                    <img src="images/preview-image.png" width="756" height="352" alt="Упаковка посылки">
+                </article>
+                <article class="calculator">
+                    <div class="calculator__container">
+                        <div class="calculator__info">
+                            <h2>Калькулятор доставки</h2>
+                            <p>Посчитайте, сколько будет стоить перевозка покупки из зарубежа</p>
+                        </div>
+                        <div class="calculator__form-container">
+                            <form action="#">
+                                <input type="text" id="name" name="name" placeholder="Имя">
+                                <input type="email" id="email" name="email" placeholder="Почта">
+                                <input type="tel" id="tel" name="tel" placeholder="Телефон">
+                                <input type="number" id="area" name="area" placeholder="Общая площадь,м&sup2">
+                                <input type="number" id="wt" name="wt" placeholder="Вес, кг">
+                                <input type="text" id="country-of-purchase" name="country-of-purchase"
+                                       placeholder="Страна покупки">
+                                <input type="text" id="city-of-purchase" name="city-of-purchase"
+                                       placeholder="Город покупки">
+                                <input type="text" id="delivery region" name="delivery region"
+                                       placeholder="Область доставки">
+                                <input type="text" id="delivery city" name="delivery city" placeholder="Город доставки">
+
+                            </form>
+                            <button>Заказать расчет</button>
+                        </div>
                     </div>
-                    <form action="#">
-                        <input type="text" id="name" name="name" placeholder="Имя">
-                        <input type="email" id="email" name="email" placeholder="Почта">
-                        <input type="tel" id="tel" name="tel" placeholder="Телефон">
-                        <input type="number" id="area" name="area" placeholder="Общая площадь,м&sup2">
-                        <input type="number" id="wt" name="wt" placeholder="Вес, кг">
-                        <input type="text" id="country-of-purchase" name="country-of-purchase"
-                               placeholder="Страна покупки">
-                        <input type="text" id="city-of-purchase" name="city-of-purchase" placeholder="Город покупки">
-                        <input type="text" id="delivery region" name="delivery region" placeholder="Область доставки">
-                        <input type="text" id="delivery city" name="delivery city" placeholder="Город доставки">
-                        <button>Заказать расчет</button>
-                    </form>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <article class="advantages__content">
+                <h2>Наши преимущества</h2>
+                <div class="advantages__list-container">
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <img src="images/Board.svg" alt="Иконка чеклист">
+                            <div class="text-item">
+                                <p>Растоможка груза</p>
+                                <p>Мы берём на себя все формальности и бумажную волокиту, связанную с растаможкой
+                                    груза</p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <img src="images/Package.svg" alt="Иконка упаковка">
+                            <div class="text-item">
+                                <p>Надёжная упаковка</p>
+                                <p>Все товары упаковываются нашими специалистами с особым вниманием к деталям,
+                                    гарантируя, что они дойдут в безопасности и в отличном состоянии</p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <img src="images/Delivery.svg" alt="Иконка доставка">
+                            <div class="text-item">
+                                <p>Быстро и выгодно</p>
+                                <p>Мы предлагаем быструю и выгодную доставку, чтобы вы могли насладиться покупками как
+                                    можно скорее.</p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <img src="images/best%20support.svg" alt="Иконка медаль">
+                            <div class="text-item">
+                                <p>Удобный сервис</p>
+                                <p>Стремимся сделать процесс доставки максимально удобным для вас, чтобы опыт остался
+                                    приятным и беззаботным</p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <img src="images/clear%20info.svg" alt="Иконка прозрачности работы">
+                            <div class="text-item">
+                                <p>Прозрачность работы</p>
+                                <p>Мы предоставляем полный контроль над каждым этапом доставки, от момента заказа
+                                    до момента прибытия заказа</p>
+                            </div>
+                        </li>
+                        <li class="advantages__item">
+                            <img src="images/garantee.svg" alt="Иконка страхование груза">
+                            <div class="text-item">
+                                <p>Страхование груза</p>
+                                <p>Наше страхование обеспечивает полную защиту и покрытие почти все неприятные и
+                                    неожиданные ситуации</p>
+                            </div>
+                        </li>
+
+                    </ul>
                 </div>
             </article>
-        </section>
-    </div>
-
+        </div>
+    </section>
+    <section class="guarantees">
+        <div class="container">
+            <article class="guarantees__content">
+                <div class="guarantees__text">
+                    <h2>Гарантии качества</h2>
+                    <p>Наши гарантии качества включают в себя полный спектр документов, необходимых для ввоза и вывоза
+                        товаров, а также для успешного бизнеса на мировом рынке.
+                        Мы предоставляем вам надёжность и уверенность</p>
+                </div>
+                <div class="guarantees__list-container">
+                    <ul class="guarantees__list">
+                        <li class="guarantees__item">
+                            <figure>
+                                <img src="images/document-1.png" alt="Свидетельство о регистрации в РФ">
+                                <figcaption>Свидетельство о регистрации в РФ</figcaption>
+                            </figure>
+                        </li>
+                        <li class="guarantees__item">
+                            <figure>
+                                <img src="images/document-2.png" alt="Свидетельство о регистрации в США">
+                                <figcaption>Свидетельство о регистрации в США</figcaption>
+                            </figure>
+                        </li>
+                        <li class="guarantees__item">
+                            <figure>
+                                <img src="images/document-3.png" alt="Свидетельство о регистрации в Китае">
+                                <figcaption>Свидетельство о регистрации в Китае</figcaption>
+                            </figure>
+                        </li>
+                        <li class="guarantees__item">
+                            <figure>
+                                <img src="images/document-4.png" alt="Свидетельство о регистрации в Великобритании">
+                                <figcaption>Свидетельство о регистрации в Великобритании</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <button>Показать больше документов</button>
+            </article>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <article class="reviews__content">
+                <h2>Отзывы</h2>
+                <div class="reviews__container">
+                    <button><img src="images/button-reviews.svg" alt="предыдущий отзыв"></button>
+                    <ul class="reviews__list">
+                        <li class="reviews__item">
+                            <p>Я заказала последний iPhone из США через ваш сервис, и доставка прошла быстро
+                                и без каких‑либо проблем. Гарантии качества и надёжная упаковка сделали мой опыт покупки
+                                невероятно позитивным</p>
+                            <p>Анна</p>
+                        </li>
+                        <li class="reviews__item">
+                            <p>Я уже несколько лет заказываю дизайнерскую одежду из Франции через ваш сервис,
+                                и он никогда меня не подводил. Важно иметь надёжную компанию, которая позаботится
+                                о вашем заказе и предоставит все необходимые документы для ввоза в Россию</p>
+                            <p>Алексей</p>
+                        </li>
+                    </ul>
+                    <button><img src="images/button-reviews.svg" alt="следующий отзыв"></button>
+                </div>
+            </article>
+        </div>
+    </section>
 </main>
-
 </body>
 </html>

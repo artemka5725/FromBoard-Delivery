@@ -1,5 +1,7 @@
 body {
     font-family: 'Formular';
+    line-height: 24px;
+    color: var(--text-color-base);
 }
 main {
     background-color: #E5E7EB;

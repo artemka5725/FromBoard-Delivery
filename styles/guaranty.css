@@ -1,0 +1,57 @@
+.guarantees__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 72px;
+}
+
+.guarantees__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.guarantees__text h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+}
+
+.guarantees__text p {
+    text-align: center;
+    max-width: 756px;
+}
+
+.guarantees__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.guarantees__item figure img {
+    width: 366px;
+    height: 375px;
+}
+
+.guarantees__item figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guarantees__item figure figcaption {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.guarantees__content button {
+    font-weight: 900;
+    padding: 16px 28px;
+    background-color: var(--color-button-hover);
+    color: var(--color-base);
+    border-radius: 12px;
+    align-self: center;
+}
