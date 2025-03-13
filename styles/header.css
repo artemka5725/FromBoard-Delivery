@@ -22,6 +22,7 @@
 }
 
 .header__preview {
+    position: relative;
     display: flex;
     gap: 24px;
 }
@@ -31,6 +32,8 @@
     height: 100%;
     width: 1px;
     background-color: #A78BFA;
+    position: absolute;
+    left: 360px;
 }
 
 .header__info {
@@ -43,13 +46,17 @@
     line-height: 24px;
 }
 
-.header__number p:first-child {
+.number p:first-child {
     font-size: 36px;
     font-weight: 900;
+    line-height: 40px;
 }
 
-.header__number p:last-child {
+.number p:last-child {
     font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+
 }
 
 .header__navigation-button-box {
@@ -81,4 +88,5 @@
     border-radius: 4px;
     padding: 10px 28px;
     color: var(--color-base);
+    font-weight: 700;
 }

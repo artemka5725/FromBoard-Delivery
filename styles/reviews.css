@@ -29,18 +29,28 @@
 }
 
 .reviews__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 24px;
 }
 
 .reviews__item {
+    max-width: 626px;
+    position: relative;
     background-color: var(--color-base);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 32px 43px;
+}
+.reviews__item:after {
+    content: url('../images/reviews-item.svg');
+    width: 63px;
+    height: 44px;
+    position: absolute;
+    top: 230px;
+    left: 530px;
+
 }
 
 .reviews__item p:first-child {

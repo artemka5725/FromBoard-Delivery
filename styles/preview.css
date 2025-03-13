@@ -63,17 +63,10 @@
     text-align: center;
 }
 
-form {
+.calculator__form-container form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 24px;
-}
-
-input {
-    border: 2px solid var(--text-color-base);
-    padding: 12px;
-    border-radius: 4px;
-
 }
 
 #name {
@@ -81,10 +74,6 @@ input {
     grid-column-end: 3;
 }
 
-.calculator__form-container {
-    display: flex;
-    flex-direction: column;
-}
 
 .calculator__form-container button {
     padding: 10px 176px;

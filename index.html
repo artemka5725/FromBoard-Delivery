@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/advantages.css">
     <link rel="stylesheet" href="styles/guaranty.css">
     <link rel="stylesheet" href="styles/reviews.css">
+    <link rel="stylesheet" href="styles/feedback.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
 <header class="header">
@@ -32,8 +34,10 @@
                         <p>1 $ = 93 ₽ | 1 € = 99 ₽ | 1 ¥ = 13 ₽</p>
                     </div>
                     <div class="header__number">
-                        <p>+7 (800) 123 45-67</p>
-                        <p>Звонки по России бесплатны</p>
+                        <div class="number">
+                            <p>+7 (800) 123 45-67</p>
+                            <p>Звонки по России бесплатны</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,6 +223,69 @@
             </article>
         </div>
     </section>
+    <section class="feedback">
+        <div class="container">
+            <article class="feedback__content">
+                <div class="feedback__box">
+                    <h2>Остались вопросы?</h2>
+                    <div class="feedback__form-container">
+                        <form action="#">
+                            <input type="text" id="feedback-name" name="name" placeholder="Имя">
+                            <input type="email" id="feedback-email" name="email" placeholder="Почта">
+                            <input type="tel" id="feedback-phone" name="phone" placeholder="Телефон">
+                            <input type="text" id="feedback-theme" name="theme" placeholder="Тема вопроса">
+                            <textarea id="feedback-message" name="message" rows="6"> </textarea>
+                        </form>
+                        <button>Оставить заявку</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="footer__logo-copyright">
+                        <div class="footer__logo">
+                            <div class="logo">
+                                <a href="/">
+                                    <img src="images/logo-white.png" width="305" height="74" alt="Логотип">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            <p>2023 © Ни одно право не защищено, копируйте сколько влезет</p>
+                            <img src="images/footer-smile.svg" width="14" height="14" alt="Смайлик">
+                        </div>
+                    </div>
+                    <div class="footer__nav">
+                        <div class="navigation">
+                            <ul class="navigation__list">
+                                <li class="navigation__item"><a href="#">Калькулятор</a></li>
+                                <li class="navigation__item"><a href="#">О нас</a></li>
+                                <li class="navigation__item"><a href="#">Гарантии</a></li>
+                                <li class="navigation__item"><a href="#">Отзывы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__number">
+                        <div class="number">
+                            <p>+7 (800) 123 45-67</p>
+                            <p>Звонки по России бесплатны</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__offer">
+                    <p>НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ. Просим обратить внимание на то, что цены носят информационный
+                        и ознакомительный характер, а значит ни в какой мере не являются публичной офертой, которая
+                        определена в ст. 437 ГК РФ. Вся информация на сайте может содержать неточности, орфографические
+                        и иные ошибки, она не является полной, окончательно и исчерпывающей</p>
+                    <p>Разработкой макета занимался Васильев Александр | Что-то на IT’шном</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </main>
 </body>
 </html>
