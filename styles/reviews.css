@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 72px;
+    margin-top: 72px;
     gap: 32px;
 }
 
@@ -16,10 +16,12 @@
     display: flex;
     gap: 47px;
 }
+
 .reviews__container button img {
     width: 60px;
     height: 60px;
 }
+
 .reviews__container button {
     align-self: center;
 }
@@ -43,22 +45,20 @@
     gap: 30px;
     padding: 32px 43px;
 }
-.reviews__item:after {
-    content: url('../images/reviews-item.svg');
-    width: 63px;
-    height: 44px;
+
+.reviews__item img{
     position: absolute;
-    top: 230px;
-    left: 530px;
+    bottom: 45px;
+    right: 25px;
 
 }
 
-.reviews__item p:first-child {
+.reviews__item h4:first-child {
     font-weight: 700;
     line-height: 32px;
     font-size: 24px;
 }
 
-.reviews__item p:last-child {
+.reviews__item h4:last-child {
     color: #6B7280;
 }

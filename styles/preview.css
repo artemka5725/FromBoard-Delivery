@@ -22,8 +22,6 @@
 }
 
 .about img {
-    width: 756px;
-    height: 352px;
     margin-top: 16px;
 }
 
@@ -40,6 +38,7 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding: 24px 0;
 
 }
 
@@ -48,7 +47,6 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-top: 24px;
     max-width: 358px;
 }
 
