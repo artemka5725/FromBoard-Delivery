@@ -90,3 +90,22 @@
     color: var(--color-base);
     font-weight: 700;
 }
+
+@media (max-width: 1536px) {
+    .header__info p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .number p:first-child {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    .number p:last-child {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+}

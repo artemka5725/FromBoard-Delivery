@@ -55,3 +55,14 @@
     border-radius: 12px;
     align-self: center;
 }
+@media (max-width: 1536px) {
+    .guarantees__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .guarantees__content {
+        margin-top: 48px;
+    }
+    .guarantees__content button {
+        margin-top: 36px;
+    }
+}

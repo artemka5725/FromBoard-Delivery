@@ -3,24 +3,37 @@ body {
     line-height: 24px;
     color: var(--text-color-base);
 }
+
 main {
     background-color: #E5E7EB;
 }
+
 input, textarea {
     border: 2px solid var(--text-color-base);
     padding: 12px;
     border-radius: 4px;
 
 }
+
 input:focus, textarea:focus {
     color: var(--color-button-hover);
-    border-color: var(--color-button-hover) ;
+    border-color: var(--color-button-hover);
 }
+
 input:focus::placeholder, textarea:focus::placeholder {
     color: var(--color-button-hover);
 }
+
 .container {
     max-width: 1536px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1026px;
+        padding: 0 10px;
+    }
 }

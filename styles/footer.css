@@ -65,3 +65,21 @@
     text-align: end;
 
 }
+@media (max-width: 1536px) {
+    .number p:first-child {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .number p:last-child {
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .copyright p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .footer__number {
+        display: flex;
+        margin: auto;
+    }
+}

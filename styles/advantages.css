@@ -45,3 +45,11 @@
     line-height: 20px;
     max-width: 300px;
 }
+@media (max-width: 1536px) {
+    .advantages__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .advantages__content {
+        margin-top: 48px;
+    }
+}
