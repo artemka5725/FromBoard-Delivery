@@ -88,3 +88,14 @@
     }
 
 }
+
+@media (max-width: 1024px) {
+    .reviews__item:last-child {
+        display: none;
+    }
+
+    .reviews__item {
+        max-width: 570px;
+        min-height: 224px;
+    }
+}
