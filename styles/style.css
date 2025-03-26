@@ -42,3 +42,8 @@ input:focus::placeholder, textarea:focus::placeholder {
         max-width: 768px;
     }
 }
+@media (max-width: 758px) {
+    .container {
+        max-width: 640px;
+    }
+}

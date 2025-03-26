@@ -53,3 +53,8 @@
         margin-top: 48px;
     }
 }
+@media (max-width: 758px) {
+    .advantages__list {
+        grid-template-columns: 1fr;
+    }
+}

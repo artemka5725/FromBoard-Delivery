@@ -66,3 +66,8 @@
         margin-top: 36px;
     }
 }
+@media (max-width: 758px) {
+    .guarantees__list {
+        grid-template-columns: 1fr;
+    }
+}
